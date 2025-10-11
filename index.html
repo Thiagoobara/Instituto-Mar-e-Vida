@@ -5,6 +5,7 @@
     <title>Instituto Mar e Vida</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700,500,400&display=swap" rel="stylesheet">
     <!-- Meta tags para SEO futuramente aqui -->
 </head>
 <body>
@@ -27,26 +28,60 @@
     </header>
 
     <!-- Banner principal/herói -->
-    <section id="banner">
-        <h2>O mar agradece, a tartaruga vive!</h2>
-        <p>Cuidando das tartarugas marinhas e do oceano desde 1992</p>
-        <a href="#ajudar">Quero ajudar</a>
-    </section>
-    <!-- Sobre a ong -->
-    <main>
-        <section id="sobre">
-            <h2>Sobre o Instituto</h2>
-            <p>
-                O Instituto Mar e Vida foi fundado em 1992 por Claudinho Tubarão e atua na preservação das tartarugas marinhas em Ubatuba-SP.<br>
-                Nossa missão é proteger e preservar as tartarugas e seus habitats naturais.
-            </p>
-            <ul>
-                <li><strong>Missão:</strong> Proteger e preservar as tartarugas marinhas.</li>
-                <li><strong>Visão:</strong> Ser referência nacional na proteção das tartarugas e conservação do oceano.</li>
-                <li><strong>Valores:</strong> Respeito à vida, educação ambiental, transparência, voluntariado, ciência cidadã.</li>
-            </ul>
-        </section>
+<section id="banner">
+    <div class="carrossel">
+            <img src="assets/imagens/baleia01.jpg" alt="Tartaruga Livre" class="carrossel-img">
+            <img src="assets/imagens/tartaruga03.jpg" alt="Tartaruga nadando" class="carrossel-img">
+            <img src="assets/imagens/corais02.jpg" alt="corais" class="carrossel-img ativo">
+            <img src="assets/imagens/tartaruga04.jpg" alt="Tartaruga no mar" class="carrossel-img">
+            <img src="assets/imagens/cardume02.jpg" alt="Tartaruga bebê chegando ao mar" class="carrossel-img">
+            <img src="assets/imagens/tartaruga09.jpg" alt="Paisagem do oceano" class="carrossel-img">
+            <img src="assets/imagens/peixe01.jpg" alt="Paisagem do oceano" class="carrossel-img">
+            <img src="assets/imagens/corais03.jpg" alt="Paisagem do oceano" class="carrossel-img">
+            <img src="assets/imagens/tartaruga13.jpg" alt="Paisagem do oceano" class="carrossel-img">
+            <img src="assets/imagens/baleia02.jpg" alt="Paisagem do oceano" class="carrossel-img">
+            <img src="assets/imagens/tartaruga15.jpg" alt="Paisagem do oceano" class="carrossel-img">
+            <img src="assets/imagens/nemo.jpg" alt="corais" class="carrossel-img ativo">
+            <img src="assets/imagens/cardume01.jpg" alt="Voluntários na praia" class="carrossel-img">
+            <img src="assets/imagens/caranguejo01.jpg" alt="Voluntários na praia" class="carrossel-img">
+            <img src="assets/imagens/tartaruga16.jpg" alt="Paisagem do oceano" class="carrossel-img">
+        <div class="banner-conteudo">
+            <h2>O mar agradece, a tartaruga vive!</h2>
+            <p>Cuidando das tartarugas marinhas e do oceano desde 1992</p>
+            <a href="#ajudar">Quero ajudar</a>
+        </div>
+</section>
+    <section class="biologos">
+    <h2>Nossos Biólogos</h2>
+    <div class="bio-cards">
+        <div class="bio-card">
+            <img src="assets/imagens/claudinho.jpg" alt="Claudinho Tubarão, biólogo" class="bio-foto">
+            <div>
+                <h3>Claudinho Tubarão</h3>
+                <span class="bio-cargo">Biólogo Marinho — Fundador</span>
+                <p>“Desde 1992, dedico minha vida à proteção das tartarugas marinhas e à educação ambiental na Praia do Sol.”</p>
+            </div>
+        </div>
+        <div class="bio-card">
+            <img src="assets/imagens/marina.jpg" alt="Alice Medusa Do Mar" class="bio-foto">
+            <div>
+                <h3>Alice Medusa Do Mar</h3>
+                <span class="bio-cargo">Bióloga & Educadora</span>
+                <p>“Acredito que sensibilizar as crianças é plantar um futuro melhor para o oceano e toda a vida marinha.”</p>
+            </div>
+        </div>
+        <div class="bio-card">
+            <img src="assets/imagens/felipe.jpg" alt="Heloise Golfinho" class="bio-foto">
+            <div>
+                <h3>Heloise Golfinho</h3>
+                <span class="bio-cargo">Bióloga — Projetos & Voluntariado</span>
+                <p>“Cada voluntário é uma onda de esperança: juntos, fazemos diferença real na costa e no mar!”</p>
+            </div>
+        </div>
+    </div>
+</section>
 
+    <main>
         <!-- Projetos em destaque -->
        <section id="projetos">
   <h2>Projetos em destaque</h2>
@@ -99,5 +134,7 @@
     <p>&copy; 2024. Todos os direitos reservados.</p>
 </footer>
 
+<script src="js/mascaras.js"></script>
+<script src="js/carrossel.js"></script>
 </body>
 </html>
