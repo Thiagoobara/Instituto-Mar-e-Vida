@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Máscara para CPF
     const cpfInput = document.getElementById('cpf');
     if (cpfInput) {
         cpfInput.addEventListener('input', function (e) {
@@ -10,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
             e.target.value = value;
         });
     }
-    // Máscara para Telefone
+    //Telefone
     const telInput = document.getElementById('telefone');
     if (telInput) {
         telInput.addEventListener('input', function (e) {
@@ -20,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             e.target.value = value;
         });
     }
-    // Máscara para CEP
+    //CEP
     const cepInput = document.getElementById('cep');
     if (cepInput) {
         cepInput.addEventListener('input', function (e) {
